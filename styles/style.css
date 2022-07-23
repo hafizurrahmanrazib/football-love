@@ -221,7 +221,6 @@ footer {
 }
 
 .footer-container {
-    width: 1200px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -259,88 +258,31 @@ footer {
 
     /* Header Section Or First Section  */
     header {
-        margin-top: 50px;
         margin-bottom: 30px;
-        display: flex;
-        justify-content: center;
     }
 
     .container {
         width: 900px;
         height: 500px;
-        background-color: #161616;
-        display: flex;
-        border-radius: 35px;
-    }
-
-    .half-width {
-        width: 50%;
     }
 
     .banner-left {
         padding-left: 30px;
-        padding-right: 20px;
     }
 
 
     .banner-left h1 {
         font-size: 50px;
-        font-weight: 700;
         line-height: 75px;
-        color: #FFFFFF;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
-
-    .banner-left p {
-        font-size: 16px;
-        font-weight: 400;
-        color: #FFFFFF;
-        margin-bottom: 40px;
-    }
-
-    .banner-left a {
-        text-decoration: none;
-        color: #FFFFFF;
-        font-size: 20px;
-        font-weight: 400px;
-        padding: 10px 15px;
-        background: #DD0000;
-        border-radius: 5px;
-    }
-
-    .banner-left a:hover {
-        text-decoration: none;
-        color: #DD0000;
-        font-size: 20px;
-        font-weight: 400px;
-        padding: 10px 15px;
-        background: #FFFFFF;
-        border-radius: 5px;
-    }
-
-    .fa-play {
-        font-size: 15px;
-        padding-left: 5px;
-    }
-
-    .banner-right img {
-        height: 100%;
-        width: 100%;
     }
 
     /* Main Section Or Second Section  */
     main {
-        margin-top: 50px;
         margin-bottom: 30px;
-        display: flex;
-        justify-content: center;
     }
 
     .section2-container {
         width: 900px;
-        display: flex;
-        justify-content: space-between;
     }
 
     /* Side Section  */
@@ -348,33 +290,14 @@ footer {
     .side-section {
         width: 220px;
         height: 220px;
-        background-color: #161616;
-        border-radius: 10px;
-    }
-
-    .side-section-btn {
-        display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        justify-content: center;
-        justify-items: center;
     }
 
     .side-section-btn a {
-        text-decoration: none;
-        color: #161616;
         font-size: 12px;
         font-weight: 600;
-        text-align: center;
         width: 150px;
         height: 40px;
-        background-color: #FFFFFF;
-        border-radius: 5px;
         margin: 25px 20px 0px;
-    }
-
-    #special {
-        color: #FFFFFF;
-        background-color: #DD0000;
     }
 
     /* Main Section  */
@@ -384,43 +307,17 @@ footer {
     }
 
     .blogs {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
         gap: 8px;
     }
 
     .blog {
         width: 210px;
         height: 250px;
-        border: 1px solid gray;
-        border-radius: 10px;
-    }
-
-    .blog-image img {
-        width: 100%;
-    }
-
-    .blog-details {
-        padding: 10px;
-    }
-
-    .blog-details a {
-        text-decoration: none;
-        color: #161616;
-        font-size: 14px;
-        font-weight: 500;
-        padding: 3px 15px;
-        border: 1px solid gray;
-        border-radius: 5px;
     }
 
     .blog-details h2 {
         font-size: 12px;
         font-weight: 500px;
-    }
-
-    .blog-info {
-        display: flex;
     }
 
     .blog-info .time,
@@ -430,75 +327,29 @@ footer {
         margin-right: 25px;
     }
 
-    .blog-info .clock-time,
-    .user-comment {
-        margin-left: 8px;
-    }
-
     /* Extra Button Section  */
     .btn-container {
-        text-align: center;
         display: none;
     }
 
-    .btn-extra a {
-        text-decoration: none;
-        color: #FFFFFF;
-        font-size: 20px;
-        font-weight: 400px;
-        padding: 10px 25px;
-        background: #DD0000;
-        border-radius: 5px;
-    }
-
-    .btn-extra a:hover {
-        text-decoration: none;
-        color: #DD0000;
-        font-size: 20px;
-        font-weight: 400px;
-        padding: 10px 25px;
-        background: #FFFFFF;
-        border: 1px solid #161616;
-        border-radius: 5px;
-    }
-
     /* Footer Section */
-    footer {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        background-color: #161616;
-    }
 
     .footer-container {
         width: 900px;
-        margin-bottom: 50px;
-        text-align: center;
     }
 
     .footer-top {
-        color: #FFFFFF;
         font-size: 25px;
-        font-weight: 600;
-    }
-
-    .footer-bottom {
-        display: flex;
-        justify-content: space-evenly;
     }
 
     .footer-bottom a {
         margin: 25px;
-        text-decoration: none;
-        color: #B9B9B9;
         font-size: 15px;
         font-weight: 600;
     }
 
     .social-media a {
-        color: #FFFFFF;
         font-size: 25px;
-        padding: 0px 20px;
     }
 }
 
@@ -510,20 +361,12 @@ footer {
     header {
         margin-top: 20px;
         margin-bottom: 40px;
-        display: flex;
-        justify-content: center;
     }
 
     .container {
         width: 650px;
         height: 400px;
-        background-color: #161616;
-        display: flex;
         border-radius: 20px;
-    }
-
-    .half-width {
-        width: 50%;
     }
 
     .banner-left {
@@ -536,46 +379,26 @@ footer {
         font-size: 35px;
         font-weight: 600;
         line-height: 45px;
-        color: #FFFFFF;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
     }
 
     .banner-left p {
-        font-size: 16px;
-        font-weight: 400;
-        color: #FFFFFF;
         margin-bottom: 30px;
     }
 
     .banner-left a {
-        text-decoration: none;
-        color: #FFFFFF;
         font-size: 18px;
         font-weight: 500px;
         padding: 8px 12px;
-        background: #DD0000;
-        border-radius: 5px;
     }
 
     .banner-left a:hover {
-        text-decoration: none;
-        color: #DD0000;
         font-size: 18px;
         font-weight: 500px;
         padding: 8px 12px;
-        background: #FFFFFF;
-        border-radius: 5px;
     }
 
     .fa-play {
         font-size: 10px;
-        padding-left: 5px;
-    }
-
-    .banner-right img {
-        height: 100%;
-        width: 100%;
     }
 
     /* Main Section Or Second Section  */
@@ -586,7 +409,6 @@ footer {
 
     .section2-container {
         width: 650px;
-        display: flex;
         flex-direction: column;
     }
 
@@ -600,24 +422,17 @@ footer {
     }
 
     .side-section-btn {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
     .side-section-btn a {
-        text-decoration: none;
-        font-size: 15px;
         font-weight: 800;
         width: 180px;
-        height: 50px;
         border: 1px solid #161616;
-        border-radius: 5px;
         margin: 25px 20px 0px;
     }
 
     #special {
-        color: #FFFFFF;
-        background-color: #DD0000;
         border: 1px solid #FFFFFF;
     }
 
@@ -628,7 +443,6 @@ footer {
     }
 
     .blogs {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         column-gap: 0px;
@@ -638,12 +452,6 @@ footer {
     .blog {
         width: 300px;
         height: 330px;
-        border: 1px solid gray;
-        border-radius: 10px;
-    }
-
-    .blog-image img {
-        width: 100%;
     }
 
     .blog-details {
@@ -651,12 +459,8 @@ footer {
     }
 
     .blog-details a {
-        text-decoration: none;
-        color: #161616;
         font-size: 16px;
         font-weight: 600;
-        padding: 3px 15px;
-        border: 1px solid gray;
         border-radius: 3px;
     }
 
@@ -665,15 +469,9 @@ footer {
         font-weight: 500px;
     }
 
-    .blog-info {
-        display: flex;
-    }
-
     .blog-info .time,
     .comment {
-        font-size: 15px;
         font-weight: 600;
-        margin-right: 35px;
     }
 
     .blog-info .clock-time,
@@ -683,69 +481,32 @@ footer {
 
     /* Extra Button Section  */
     .btn-container {
-        text-align: center;
         visibility: visible;
     }
 
-    .btn-extra a {
-        text-decoration: none;
-        color: #FFFFFF;
-        font-size: 20px;
-        font-weight: 400px;
-        padding: 10px 25px;
-        background: #DD0000;
-        border-radius: 5px;
-    }
-
-    .btn-extra a:hover {
-        text-decoration: none;
-        color: #DD0000;
-        font-size: 20px;
-        font-weight: 400px;
-        padding: 10px 25px;
-        background: #FFFFFF;
-        border: 1px solid #161616;
-        border-radius: 5px;
-    }
-
     /* Footer Section */
-    footer {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        background-color: #161616;
-    }
 
     .footer-container {
         width: 650px;
         margin-bottom: 30px;
-        text-align: center;
     }
 
     .footer-top {
-        color: #FFFFFF;
         font-size: 25px;
-        font-weight: 600;
     }
 
     .footer-bottom {
-        display: flex;
         flex-wrap: wrap;
         margin-top: 20px;
     }
 
     .footer-bottom a {
         margin: 15px;
-        text-decoration: none;
-        color: #B9B9B9;
         font-size: 18px;
-        font-weight: 600;
     }
 
     .social-media a {
-        color: #FFFFFF;
         font-size: 25px;
-        padding: 0px 20px;
     }
 }
 
@@ -757,18 +518,15 @@ footer {
     header {
         margin-top: 20px;
         margin-bottom: 20px;
-        display: flex;
         justify-content: space-evenly;
     }
 
     .container {
         width: 350px;
         height: 650px;
-        display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        background-color: #161616;
         border-radius: 15px;
     }
 
@@ -776,34 +534,22 @@ footer {
         font-size: 25px;
         font-weight: 500;
         line-height: 40px;
-        color: #FFFFFF;
         text-align: center;
     }
 
     .banner-left p {
         font-size: 15px;
-        font-weight: 400;
-        color: #FFFFFF;
         text-align: center;
     }
 
     .banner-left a {
-        text-decoration: none;
-        color: #FFFFFF;
         font-size: 15px;
-        padding: 10px 15px;
-        background: #DD0000;
-        border-radius: 5px;
         margin-left: 25px;
     }
 
     .banner-left a:hover {
-        text-decoration: none;
-        color: #DD0000;
         font-size: 15px;
         padding: 10px 15px;
-        background: #FFFFFF;
-        border-radius: 5px;
         margin-left: 25px;
     }
 
@@ -813,8 +559,6 @@ footer {
 
     .banner-right img {
         margin-left: 30px;
-        height: 100%;
-        width: 100%;
     }
 
     /* Main Section Or Second Section  */
@@ -825,7 +569,6 @@ footer {
 
     .section2-container {
         width: 350px;
-        display: flex;
         flex-direction: column;
     }
 
@@ -834,34 +577,7 @@ footer {
     .side-section {
         width: 350px;
         height: 280px;
-        background-color: #161616;
-        border-radius: 10px;
         margin-bottom: 20px;
-    }
-
-    .side-section-btn {
-        display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        justify-content: center;
-        justify-items: center;
-    }
-
-    .side-section-btn a {
-        text-decoration: none;
-        color: #161616;
-        font-size: 15px;
-        font-weight: 700;
-        text-align: center;
-        width: 200px;
-        height: 50px;
-        background-color: #FFFFFF;
-        border-radius: 5px;
-        margin: 35px 20px 0px;
-    }
-
-    #special {
-        color: #FFFFFF;
-        background-color: #DD0000;
     }
 
     /* Main Section  */
@@ -882,111 +598,41 @@ footer {
     .blog {
         width: 350px;
         height: 360px;
-        border: 1px solid gray;
         border-radius: 13px;
-    }
-
-    .blog-image img {
-        width: 100%;
-    }
-
-    .blog-details {
-        padding: 10px;
-    }
-
-    .blog-details a {
-        text-decoration: none;
-        color: #161616;
-        font-size: 14px;
-        font-weight: 500;
-        padding: 3px 15px;
-        border: 1px solid gray;
-        border-radius: 5px;
-    }
-
-    .blog-details h2 {
-        font-size: 17px;
-        font-weight: 600px;
-    }
-
-    .blog-info {
-        display: flex;
-    }
-
-    .blog-info .time,
-    .comment {
-        font-size: 15px;
-        font-weight: 500;
-        margin-right: 35px;
-    }
-
-    .blog-info .clock-time,
-    .user-comment {
-        margin-left: 8px;
     }
 
     /* Extra Button Section  */
     .btn-container {
-        text-align: center;
         display: none;
     }
 
-    .btn-extra a {
-        text-decoration: none;
-        color: #FFFFFF;
-        font-size: 20px;
-        font-weight: 400px;
-        padding: 10px 25px;
-        background: #DD0000;
-        border-radius: 5px;
-    }
-
-    .btn-extra a:hover {
-        text-decoration: none;
-        color: #DD0000;
-        font-size: 20px;
-        font-weight: 400px;
-        padding: 10px 25px;
-        background: #FFFFFF;
-        border: 1px solid #161616;
-        border-radius: 5px;
-    }
-
     /* Footer Section */
-    footer {
-        margin-top: 50px;
-        background-color: #161616;
-    }
 
     .footer-container {
+        margin-bottom: 20px;
         width: 350px;
-        margin-bottom: 50px;
-        text-align: center;
     }
 
     .footer-top {
-        color: #FFFFFF;
         font-size: 25px;
         font-weight: 500;
     }
 
+    .footer-top h1 {
+        padding-top: 10px;
+        margin: 0px;
+    }
+
     .footer-bottom {
-        display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
 
     }
 
     .footer-bottom a {
-        text-decoration: none;
-        color: #B9B9B9;
         font-size: 20px;
-        font-weight: 600;
-    }
-
-    .social-media a {
-        color: #FFFFFF;
-        font-size: 30px;
-        padding: 0px 20px;
+        padding: 5px;
+        margin: 0px;
     }
 }
 
